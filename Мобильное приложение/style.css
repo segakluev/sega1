@@ -1,0 +1,203 @@
+.container {
+    background: url('фон.jpeg');
+    background-size: cover;
+    position: fixed;
+    left: 0; right: 0; top: 0; bottom: 0;
+    filter: brightness(40%);
+}
+
+
+.button_buy .buy {
+    width: 220px;
+    height: 50px;
+    bottom: -900px;
+    left: 10px;
+    border: none;
+    outline: none;
+    color: #fff;
+    background: #111;
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    border-radius: 10px;
+    font-size: 24px;
+}
+
+.button_buy .buy:before {
+    content: '';
+    background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+    position: absolute;
+    top: -2px;
+    left:-2px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(5px);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    animation: glowing 20s linear infinite;
+    opacity: 0;
+    transition: opacity .3s ease-in-out;
+    border-radius: 10px;
+}
+
+.button_buy .buy:active {
+    color: #000
+}
+
+.button_buy .buy:active:after {
+    background: transparent;
+}
+
+.button_buy .buy:hover:before {
+    opacity: 1;
+}
+
+.button_buy .buy:after {
+    z-index: -1;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #111;
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+}
+
+@keyframes glowing {
+    0% { background-position: 0 0; }
+    50% { background-position: 400% 0; }
+    100% { background-position: 0 0; }
+}
+h1{
+    position: relative;
+    color: rgb(14, 160, 197);
+    word-spacing: 100000px;
+    font-size: 80px;
+    line-height: 100px;
+    cursor: default;
+}
+.button_buy .shop {
+    width: 220px;
+    height: 50px;
+    bottom: 20px;
+    left: 1200px;
+    border: none;
+    outline: none;
+    color: #fff;
+    background: #111;
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    border-radius: 10px;
+    font-size: 24px;
+}
+
+.button_buy .shop:before {
+    content: '';
+    background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+    position: absolute;
+    top: -2px;
+    left:-2px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(5px);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    animation: glowing 20s linear infinite;
+    opacity: 0;
+    transition: opacity .3s ease-in-out;
+    border-radius: 10px;
+}
+
+.button_buy .shop:active {
+    color: #000
+}
+
+.button_buy .shop:active:after {
+    background: transparent;
+}
+
+.button_buy .shop:hover:before {
+    opacity: 1;
+}
+
+.button_buy .shop:after {
+    z-index: -1;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #111;
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+}
+
+@keyframes glowing {
+    0% { background-position: 0 0; }
+    50% { background-position: 400% 0; }
+    100% { background-position: 0 0; }
+}
+.button_buy .cart {
+    width: 220px;
+    height: 50px;
+    bottom: 70px;
+    left: 1500px;
+    border: none;
+    outline: none;
+    color: #fff;
+    background: #111;
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    border-radius: 10px;
+    font-size: 24px;
+}
+
+.button_buy .cart:before {
+    content: '';
+    background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+    position: absolute;
+    top: -2px;
+    left:-2px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(5px);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    animation: glowing 20s linear infinite;
+    opacity: 0;
+    transition: opacity .3s ease-in-out;
+    border-radius: 10px;
+}
+
+.button_buy .cart:active {
+    color: #000
+}
+
+.button_buy .cart:active:after {
+    background: transparent;
+}
+
+.button_buy .cart:hover:before {
+    opacity: 1;
+}
+
+.button_buy .cart:after {
+    z-index: -1;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #111;
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+}
+
+@keyframes glowing {
+    0% { background-position: 0 0; }
+    50% { background-position: 400% 0; }
+    100% { background-position: 0 0; }
+}
