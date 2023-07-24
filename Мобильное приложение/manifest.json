@@ -1,7 +1,7 @@
 {
     "name": "KsdPlay",
     "description": "praktika",
-    "start_url": "/index.html",
+    "start_url": "index.html",
     "lang": "ru",
     "display": "standalone",
     "icons": [
